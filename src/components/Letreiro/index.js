@@ -17,7 +17,7 @@ function Letreiro({currentWord, arrayAcertos}){
         <C.Container>
 
             {word.map((element, index)=>(
-                <C.Casa key={index}>{arrayAcertos.includes(element) ? element : '_'}</C.Casa>
+                <C.Casa key={index}>{arrayAcertos.includes(element) ? element : ''}</C.Casa>
             ))}
 
 
