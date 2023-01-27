@@ -4,7 +4,7 @@ export const Container = styled.div`
 margin-top: -100px;
 margin-bottom: 20px;
 height: 160px;
-width: 900px;
+width: 70%;
 background-color: #cdcdcd;
 border-radius: 4px;
 color: black;
@@ -12,6 +12,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
+
 `
 
 export const Casa = styled.div`

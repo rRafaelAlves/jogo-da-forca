@@ -13,5 +13,10 @@ export const Words = [
     {palavra: "Avião", dica: "Viagem"},
     {palavra: "Kong Fu Panda", dica: "Desenho"},
     {palavra: "Dark Souls", dica: "Jogo"},
+    {palavra: "Teclado", dica: "Computador"},
+    {palavra: "The last of us", dica: "Série"},
+    {palavra: "Banana", dica: "Macaco"},
+    {palavra: "Tartaruga", dica: "Lentidão"},
+    {palavra: "Espada", dica: "Arma"}
 
 ]

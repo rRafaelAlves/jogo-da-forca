@@ -40,6 +40,13 @@ function App() {
         setCountErrors(countErrors + 6);
       }else{
         
+        const word = [];
+
+        for(let i = 0; i <= e.target.fullName.value.length - 1; i++){
+            word.push(e.target.fullName.value[i]);
+          }
+
+          setArrayAcertos(word)
       }
 
     }else{
@@ -50,7 +57,6 @@ function App() {
         setCountErrors(countErrors + 1);
       }else{
 
-        
         let index = currentWord.palavra.indexOf(e.target.oneChar.value);
         setArrayAcertos([...arrayAcertos, arrayAcertos[index] = e.target.oneChar.value])
       }

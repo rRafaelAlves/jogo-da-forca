@@ -54,9 +54,11 @@ export const FormDisplay = styled.form`
 `
 
 export const ToogleInput = styled.div`
-    width: 60px;
+    width: 130px;
     height: 30px;
     border-radius: 12px;
+    padding: 4px;
+    margin: 12px 0;
     border: 2px solid black;
     font-weight: bold;
     display: flex;
@@ -79,6 +81,7 @@ export const ButtonForm = styled.input`
 
     width: 160px;
     padding: 6px;
+    margin: 4px 0;
     border-radius: 10px;
     border: 2px solid #999;
     background-color: #444;

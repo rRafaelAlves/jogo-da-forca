@@ -9,15 +9,14 @@ function Letreiro({currentWord, arrayAcertos}){
     for(let i = 0; i <= currentWord.length - 1; i++){
         word.push(currentWord[i]);
    }
-
 }
-
+console.log(arrayAcertos)
 
     return(
         <C.Container>
 
             {word.map((element, index)=>(
-                <C.Casa key={index}>{arrayAcertos.includes(element) ? element : ''}</C.Casa>
+                <C.Casa key={index}>{arrayAcertos.includes(element) ? element : '_'}</C.Casa>
             ))}
 
 
